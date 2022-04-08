@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferanTipler", "Deg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods2", "Methods2\Methods2.csproj", "{539905A6-B531-4EA1-8453-D16E8D13AB5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodDemo", "ClassMethodDemo\ClassMethodDemo.csproj", "{47B57230-F0FF-45F0-8B6A-3BA27A71C93B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{539905A6-B531-4EA1-8453-D16E8D13AB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{539905A6-B531-4EA1-8453-D16E8D13AB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{539905A6-B531-4EA1-8453-D16E8D13AB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B57230-F0FF-45F0-8B6A-3BA27A71C93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B57230-F0FF-45F0-8B6A-3BA27A71C93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B57230-F0FF-45F0-8B6A-3BA27A71C93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B57230-F0FF-45F0-8B6A-3BA27A71C93B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

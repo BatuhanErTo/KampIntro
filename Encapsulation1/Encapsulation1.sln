@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation1", "Encapsulation1.csproj", "{A6EBAF4B-CA47-4E05-9AFC-8F4B24B02272}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDama", "..\RecapDama\RecapDama.csproj", "{8EE47046-0389-4060-921F-CFF7553860C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A6EBAF4B-CA47-4E05-9AFC-8F4B24B02272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6EBAF4B-CA47-4E05-9AFC-8F4B24B02272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6EBAF4B-CA47-4E05-9AFC-8F4B24B02272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE47046-0389-4060-921F-CFF7553860C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE47046-0389-4060-921F-CFF7553860C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE47046-0389-4060-921F-CFF7553860C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE47046-0389-4060-921F-CFF7553860C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

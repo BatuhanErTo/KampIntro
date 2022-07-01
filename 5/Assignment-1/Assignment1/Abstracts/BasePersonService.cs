@@ -14,12 +14,12 @@ namespace Assignment1.Abstracts
             Console.WriteLine("New user has been added to db. " + person.FirstName);
         }
 
-        public void Update(Person person)
+        public virtual void Update(Person person)
         {
             Console.WriteLine("The user's information has been updated to db. " + person.FirstName);
         }
 
-        public void Delete(Person person)
+        public virtual void Delete(Person person)
         {
             Console.WriteLine("The user is deleted from db. " + person.FirstName);
         }

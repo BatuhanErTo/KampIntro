@@ -28,5 +28,28 @@ namespace Assignment1.Concrete
                 throw new Exception("Not a valid person");
             }
         }
+
+        public override void Update(Person person)
+        {
+            if (checkPersonService.CheckIfRealPerson(person))
+            {
+                base.Update(person);
+            }
+            else
+            {
+                throw new Exception("Not a valid person");
+            }
+        }
+        public override void Delete(Person person)
+        {
+            if (checkPersonService.CheckIfRealPerson(person))
+            {
+                base.Delete(person);
+            }
+            else
+            {
+                throw new Exception("Not a valid person");
+            }
+        }
     }
 }

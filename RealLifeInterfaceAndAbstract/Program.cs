@@ -9,7 +9,7 @@ namespace RealLifeInterfaceAndAbstract // Note: actual namespace depends on the 
         static void Main(string[] args)
         {
             BaseCustomerManager customerManager = new StarbucksCustomerManager(new CustomerCheckManager());
-            customerManager.Save(new Entities.Customer {DateOfBirth = 2002, Name = "Batuhan", LastName = "Erol",NationalityId ="16607360256"});
+            customerManager.Save(new Entities.Customer {DateOfBirth = new DateTime(2002,10,12), Name = "Batuhan", LastName = "Erol",NationalityId ="16607360256"});
 
         }
     }

@@ -14,9 +14,16 @@ namespace RealLifeInterfaceAndAbstract.Adapters
     {
         public bool CheckIfRealPerson(Customer customer)
         {
-            //KPSPublicSoapClient client = new KPSPublicSoapClient();
-            //return client.TCKimlikNoDogrulaAsync(Convert.ToInt64(customer.NationalityId), customer.Name.ToUpper(), customer.LastName.ToUpper(), customer.DateOfBirth);
-            return true;
+            KPSPublicSoapClient client = new KPSPublicSoapClient(KPSPublicSoapClient.EndpointConfiguration.KPSPublicSoap);
+            return client.TCKimlikNoDogrulaAsync
+                (new TCKimlikNoDogrulaRequest
+                (new TCKimlikNoDogrulaRequestBody(
+                    Convert.ToInt64(
+                    customer.NationalityId),
+                    customer.Name.ToUpper(),
+                    customer.LastName.ToUpper(),
+                    customer.DateOfBirth.Year)))
+                .Result.Body.TCKimlikNoDogrulaResult;
         }
     }
 }
